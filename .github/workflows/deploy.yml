@@ -69,6 +69,6 @@ jobs:
           # Run the new container
           docker run -d \
             --name safespace-app \
-            -p 80:80 \
+            -p 3000:80 \
             --restart unless-stopped \
             ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest
