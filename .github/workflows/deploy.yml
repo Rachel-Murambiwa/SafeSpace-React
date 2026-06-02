@@ -8,7 +8,7 @@ env:
   REGISTRY: ghcr.io
   # Docker requires image names to be lowercase. 
   # If your repo has capital letters, change this to your username/repo in all lowercase.
-  IMAGE_NAME: ${{ github.repository }}
+  IMAGE_NAME: rachel-murambiwa/safespace-react
 
 jobs:
   build-and-push:
